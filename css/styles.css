@@ -34,9 +34,6 @@ ul {
 }
 
 /* HEADER STYLES */
-.page-header {
-    background-color: var(--white-background-color);
-}
 
 .page-nav .link {
     text-decoration: none;
