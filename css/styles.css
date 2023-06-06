@@ -25,10 +25,11 @@ body {
     list-style: none;
 }
 
-/* Logo */
-.logo {
+/* Header*/
+
+.link.logo {
     color: #4D5AE5; 
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 18px;
@@ -40,11 +41,6 @@ body {
     color: var(--primary-text-color);
 }
 
-.page-footer .logo-highlight {
-    color: #F4F4FD;
-}
-
-/* Site navigation */
 .items .link {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -53,18 +49,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-/* Підсвітка поточного меню ел */
-/* .link.current {
-    color: #404BBF;
-} */
-    
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: #404BBF;
-}
-
-.address .link {
+.contact-nav .link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -72,6 +57,12 @@ body {
     line-height: 1.5;
     color: var(--secondary-text-color);
 }
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #404BBF;
+}
+
 
 /* Hero */
 .hero {
@@ -91,7 +82,11 @@ body {
 
 /* Sections */
 .section.primary {
-    background-color: var(--secondary-acnt-bg-color);
+    background-color: #F4F4FD
+}
+
+.section.primary .item {
+    background-color: var(--primary-bg-color);
 }
 
 .section-title {
@@ -99,11 +94,11 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    color: #2e2f42
+    color: var(--primary-text-color);
 
 }
 
@@ -112,8 +107,9 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1,2;
     letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 
 .text {
@@ -121,7 +117,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
@@ -166,6 +162,9 @@ body {
 }
 
 /* Footer */
+.page-footer .logo-highlight {
+    color: #F4F4FD;
+}
 .page-footer {
     background-color: var(--accent-bg-color);
 }
