@@ -5,8 +5,9 @@
     --primary-bg-color:#FFFFFF;
     --btn-text-color: #4D5AE5;
     --btn-bg-color: #F4F4FD;
-    --foter-text: #F4F4FD;
+    --footer-text: #F4F4FD;
     --accent-bg-color: #2E2F42;
+    --secondary-acnt-bg-color: #F4F4FD;
 }
 
 body {
@@ -76,6 +77,10 @@ body {
 }
 
 /* Sections */
+.section.primary {
+    background-color: var(--secondary-acnt-bg-color);
+}
+
 .section-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -107,7 +112,7 @@ body {
     color: var(--secondary-text-color);
 }
 
-/* Index - Titeles */
+
 
 /* Button */
 .button {
@@ -149,5 +154,5 @@ body {
 }
 
 .page-footer .text{
-    color: var(--foter-text);
+    color: var(--footer-text);
 }
