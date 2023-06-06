@@ -5,41 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>WebStudio - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
-    <title>WebStudio - Portfolio</title>
 </head>
 
 <body>
     <header>
-        <nav class="page-nav">
-            <a class="link" href="./index.html" target="_self">
-                <p class="logo-text"><span class="logo-highlight">Web</span>Studio</p>
+        <nav class="site-nav">
+            <a class="logo" href="./index.html" target="_self">
+                <p class="logo-text">Web<span class="logo-highlight">Studio</span></p>
             </a>
-            <ul class="nav-elements">
+            <ul class="site-nav list">
                 <li><a class="link" href="./index.html#studio" target="_self">Studio</a></li>
-                <li><a class="link" href="./portfolio.html" target="_self">Portfolio</a></li>
+                <li><a class="link current" href="./portfolio.html" target="_self">Portfolio</a></li>
                 <li><a class="link" href="./index.html#contacts">Contacts</a></li>
             </ul>
-            <address class="pages-address">
-                <ul class="address-item">
-                    <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            <address>
+                <ul class="contact-nav list">
+                    <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
         </nav>
     </header>
     <main>
         <!-- Section1 - Filters -->
-        <section>
+        <section class="section">
             <h2 class="section-title">Filters</h2>
-            <ul class="button-list">
+            <ul class="button-list list">
                 <li><button class="button">All</button></li>
                 <li><button class="button">Web Site</button></li>
                 <li><button class="button">App</button></li>
@@ -48,12 +46,12 @@
             </ul>
         </section>
         <!-- Section2 - Filter Result -->
-        <section>
+        <section class="section">
             <h2 class="section-title">Filters Result</h2>
-            <ul class="portfolio-list">
-                <li><img class="portfolio-image" src="./images/banking-app.jpg" alt="different-screen-bank-app"
+            <ul class="filter-list list">
+                <li><img class=" portfolio-image" src="./images/banking-app.jpg" alt="different-screen-bank-app"
                         width="360" height="300" />
-                    <h3 class="title">Banking App Interface Concept</h3>
+                    <h3 class="subtitle">Banking App Interface Concept</h3>
                     <p class="text">App</p>
                 </li>
                 <li><img class="portfolio-image" src="./images/scaning-qr.jpg" alt="scanning-qr" width="360"
@@ -63,46 +61,45 @@
                 </li>
                 <li><img class="portfolio-image" src="./images/laptop-mobile.jpg" alt="laptop-mobile-normalcy"
                         width="360" height="300" />
-                    <h3 class="title">Meditation App</h3>
+                    <h3 class="subtitle">Meditation App</h3>
                     <p class="text">App</p>
                 </li>
                 <li><img class="portfolio-image" src="./images/car-driver.jpg" alt="car-driver-navigate" width="360"
                         height="300" />
-                    <h3 class="title">Taxi Service</h3>
+                    <h3 class="subtitle">Taxi Service</h3>
                     <p class="text">Marketing</p>
                 </li>
                 <li><img class="portfolio-image" src="./images/mobile-themes.jpg" alt="several-type-of-mobile-themes"
                         width="360" height="300" />
-                    <h3 class="title">Screen Illustrations</h3>
+                    <h3 class="subtitle">Screen Illustrations</h3>
                     <p class="text">Design</p>
                 </li>
                 <li><img class="portfolio-image" src="./images/smiling-girl.jpg" alt="girl-smiling-and-looking-at-mob"
                         width="360" height="300" />
-                    <h3 class="title">Online Courses</h3>
+                    <h3 class="subtitle">Online Courses</h3>
                     <p class="text">Marketing</p>
                 </li>
                 <li><img class="portfolio-image" src="./images/instagram-posts.jpg" alt="make-everything-feel-easir"
                         width="360" height="300" />
-                    <h3 class="title">Instagram Stories Concept</h3>
+                    <h3 class="subtitle">Instagram Stories Concept</h3>
                     <p class="text">Design</p>
                 </li>
                 <li><img class="portfolio-image" src="./images/carring-fruits.jpg" alt="women-carring-bag-with-fruits"
                         width="360" height="300" />
-                    <h3 class="title">Organic Food</h3>
+                    <h3 class="subtitle">Organic Food</h3>
                     <p class="text">Web Site</p>
                 </li>
                 <li><img class="portfolio-image" src="./images/pouring-milk.jpg" alt="pouring-milk-to-cap-with-coffee"
                         width="360" height="300" />
-                    <h3 class="title">Fresh Coffee</h3>
+                    <h3 class="subtitle">Fresh Coffee</h3>
                     <p class="text">Web Site</p>
                 </li>
-
             </ul>
         </section>
     </main>
     <footer class="page-footer">
-        <a class="link" href="./index.html">
-            <p class="logo-text"><span class="logo-highlight">Web</span>Studio</p>
+        <a class="logo" href="./index.html" target="_self">
+            <p class="logo-text">Web<span class="logo-highlight">Studio</span></p>
         </a>
         <p class="text">
             Increase the flow of customers and
