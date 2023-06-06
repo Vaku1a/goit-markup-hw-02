@@ -141,12 +141,12 @@ body {
 .button:hover,
 .button:focus {
     color: var(--accent-text-color); 
-    background: #4D5AE5;
+    background-color: #4D5AE5;
 }
 
 .button:active {
     color: var(--accent-text-color);
-    background: #404BBF;
+    background-color: #404BBF;
 }
 
 .button.primary {
