@@ -90,7 +90,7 @@ body {
     background-color: #F4F4FD
 }
 
-.section.primary .item {
+.section.color .section-list {
     background-color: var(--primary-bg-color);
 }
 
