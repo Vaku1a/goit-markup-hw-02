@@ -27,16 +27,16 @@ body {
 
 /* Logo */
 .logo {
-    color: #4D5AE5;
+    color: #4D5AE5; 
     font-family: 'Raleway';
     text-transform: uppercase;
-    text-decoration: none;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
+    letter-spacing: 0.03em
 }
 
-.site-nav .logo-highlight {
+.logo-highlight {
     color: var(--primary-text-color);
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 /* Site navigation */
-.site-nav .link {
+.items .link {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -53,9 +53,10 @@ body {
     letter-spacing: 0.02em;
 }
 
-.link.current {
+/* Підсвітка поточного меню ел */
+/* .link.current {
     color: #404BBF;
-}
+} */
     
 
 .site-nav .link:hover,
@@ -63,12 +64,12 @@ body {
     color: #404BBF;
 }
 
-.contact-nav .link {
+.address .link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
     color: var(--secondary-text-color);
 }
 
@@ -82,7 +83,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--accent-text-color);    
     text-align: center;
@@ -102,6 +103,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    color: #2e2f42
 
 }
 
@@ -128,7 +130,7 @@ body {
 
 /* Button */
 .button {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     color: var(--btn-text-color);
     background-color: var(--btn-bg-color);
     font-style: normal;
@@ -136,12 +138,13 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
     color: var(--accent-text-color); 
-    background-color: #4D5AE5;
+    background-color: #404BBF;
 }
 
 .button:active {
