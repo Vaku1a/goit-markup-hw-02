@@ -42,7 +42,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.pages-list .color {
+.color {
   color: var(--primary-text-color);
   font-family: "Roboto";
   font-style: normal;
