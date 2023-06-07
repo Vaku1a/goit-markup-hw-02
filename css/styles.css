@@ -42,32 +42,27 @@ body {
   color: var(--primary-text-color);
 }
 
-.pages-list {
+.pages-list .link.color {
   color: var(--primary-text-color);
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.pages-list .link:hover,
-.pages-list .link:focus {
-  color: var(--focus-hover);
-}
-
-.address {
+.contacts .link.color {
+  font-family: "Roboto";
   font-style: normal;
-}
-
-.contacts .link {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
+.link.color:hover,
+.link.color:focus {
   color: var(--focus-hover);
 }
 
